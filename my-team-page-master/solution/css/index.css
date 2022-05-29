@@ -1,0 +1,140 @@
+.desc_group {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.title h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    animation: entry 1s ease-in-out;
+}
+
+@keyframes entry {
+    from {transform: translateX(-200%);}
+    to {transform: translateX(0%);}
+}
+
+.about {
+    animation: appear 1s ease-in-out
+}
+
+@keyframes appear {
+    from {transform: scale(0%);}
+    to {transform: scale(100%);}
+}
+
+.about h3, .about p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.about h3 {
+    font-weight: 600;
+    line-height: 27px;
+    font-size: 18px;
+}
+
+.about p {
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.cards_group {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 60px;
+}
+
+.card img {
+    width: 80%;
+    border-radius: 5%;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(110%);
+}
+
+.card_top {
+    display: flex;
+    flex-flow: row nowrap
+}
+
+.card_down p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card_top p {
+    white-space: nowrap;
+    margin: 0;
+    transform-origin: 9px 9px;
+    transform: rotate(90deg);
+    z-index: 100;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card:nth-child(2n) {
+    top: 86px;
+}
+
+body {
+    position: relative;
+}
+
+footer {
+    margin-top: 190px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(125, 125, 125);
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .desc_group {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+
+    .about {
+        max-width: 350px;
+    }
+
+    .cards_group {
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 30% 30% 30%;
+        margin-left: 10%;
+        grid-row-gap: 80px;
+    }
+    
+    .card img {
+        width: 60%;
+    }
+
+    .card:nth-child(2n) {
+        top: 0px;
+    }
+
+    .card:nth-child(3n + 2) {
+        top: 86px;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
