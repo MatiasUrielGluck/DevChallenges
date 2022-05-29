@@ -78,9 +78,8 @@
 
 .card_top p {
     white-space: nowrap;
+    writing-mode: vertical-lr;
     margin: 0;
-    transform-origin: 9px 9px;
-    transform: rotate(90deg);
     z-index: 100;
     font-family: 'PT Serif', serif;
     font-weight: 400;
