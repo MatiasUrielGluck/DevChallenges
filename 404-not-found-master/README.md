@@ -53,5 +53,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 <!-- - Website [your-website.com](https://{your-web-site-link}) -->
-- GitHub [@MatiasUrielGluck](https://{github.com/your-usermame})
-- LinkedIn [@matías-uriel-gluck](https://{linkedin.com/in/mat%C3%ADas-uriel-gluck-04a463236/})
+- GitHub [@MatiasUrielGluck](https://github.com/MatiasUrielGluck)
+- LinkedIn [@matías-uriel-gluck](https://linkedin.com/in/mat%C3%ADas-uriel-gluck-04a463236/)
