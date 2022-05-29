@@ -1,0 +1,70 @@
+header h3 {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: -2px;
+}
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.content img {
+    width: 50%;
+    margin: 20px 0;
+}
+
+.desc {
+    width: 95%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.desc h1 {
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+.desc p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(104, 104, 104);
+    max-width: 80%;
+    letter-spacing: 1px;
+    line-height: 24px;
+    word-spacing: 5px;
+}
+
+.button {
+    margin-top: 30px;
+    color: white;
+    font-family: 'Spline Sans Mono', monospace;
+    background-color: rgb(46, 46, 46);
+    padding: 25px;
+    max-width: 180px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgb(17, 17, 17);
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(125, 125, 125);
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .content {
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+    
+    .content img, .desc {
+        width: 40%;
+    }
+}
