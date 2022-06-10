@@ -102,17 +102,17 @@
                         <img src="./images/photo1.png" alt="">
                     </div>
                     <div class="card_info">
-                        <div class="price-panel">
+                        <div class="price_panel">
                             <p class="info_title">Vintage Backbag</p>
-                            <p class="info_price">$54.99</p>
+                            <p class="info_price" id="product-price-1">$54.99</p>
                             <p class="info_original_price">$94.99</p>
                         </div>
                         <div class="cart">
-                            <div class="cart_button">
+                            <div class="cart_button subtract">
                                 <i class="fa-solid fa-circle-minus b_icon"></i>
                             </div>
                             <p class="cart_num">1</p>
-                            <div class="cart_button">
+                            <div class="cart_button add">
                                 <i class="fa-solid fa-circle-plus b_icon"></i>
                             </div>
                         </div>
@@ -124,15 +124,17 @@
                         <img src="./images/photo2.png" alt="">
                     </div>
                     <div class="card_info">
-                        <p class="info_title">Levi Shoes</p>
-                        <p class="info_price">$74.99</p>
-                        <p class="info_original_price">$124.99</p>
+                        <div class="price_panel">
+                            <p class="info_title">Levi Shoes</p>
+                            <p class="info_price" id="product-price-2">$74.99</p>
+                            <p class="info_original_price">$124.99</p>
+                        </div>
                         <div class="cart">
-                            <div class="cart_button">
+                            <div class="cart_button subtract">
                                 <i class="fa-solid fa-circle-minus b_icon"></i>
                             </div>
                             <p class="cart_num">1</p>
-                            <div class="cart_button">
+                            <div class="cart_button add">
                                 <i class="fa-solid fa-circle-plus b_icon"></i>
                             </div>
                         </div>
@@ -146,7 +148,7 @@
 
                 <div class="cart_summary">
                     <p>Total</p>
-                    <p>$148.98</p>
+                    <p id="total">$148.98</p>
                 </div>
             </div>
         </div>
@@ -155,5 +157,7 @@
     <footer>
         <p>created by <span>Matias Uriel Gluck</span> - devChallenges.io</p>
     </footer>
+
+    <script src="./js/cart.js"></script>
 </body>
 </html>
