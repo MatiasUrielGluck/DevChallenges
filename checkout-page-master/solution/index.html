@@ -20,13 +20,13 @@
 
         <div class="content">
             <div class="subgroup">
-                <form action="#">
+                <form action="" name="form" id="form" onsubmit="return validate()">
                     <h3>Contact infomation</h3>
                     <div class="form-item">
                         <label for="email">E-mail</label>
                         <div style="position: relative;">
                             <i class="fa-solid fa-envelope icon"></i>
-                            <input type="email" name="email" id="email" placeholder="Enter your email...">
+                            <input type="email" name="email" id="email" placeholder="Enter your email..." required>
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@
                         <label for="phone">Phone</label>
                         <div style="position: relative;">
                             <i class="fa-solid fa-phone icon"></i>
-                            <input type="tel" name="phone" id="phone" placeholder="Enter your phone...">
+                            <input type="number" name="phone" id="phone" placeholder="Enter your phone..." required>
                         </div>
                     </div>
 
@@ -44,7 +44,7 @@
                         <label for="name">Full name</label>
                         <div style="position: relative;">
                             <i class="fa-solid fa-circle-user icon"></i>
-                            <input type="text" name="name" id="name" placeholder="Rodney Cotton">
+                            <input type="text" name="name" id="name" placeholder="Rodney Cotton" required>
                         </div>
                     </div>
 
@@ -52,7 +52,7 @@
                         <label for="address">Address</label>
                         <div style="position: relative;">
                             <i class="fa-solid fa-house icon"></i>
-                            <input type="text" name="address" id="address" placeholder="Your address..">
+                            <input type="text" name="address" id="address" placeholder="Your address.." required>
                         </div>
                     </div>
 
@@ -60,7 +60,7 @@
                         <label for="address">City</label>
                         <div style="position: relative;">
                             <i class="fa-solid fa-city icon"></i>
-                            <input type="text" name="city" id="city" placeholder="Your city..">
+                            <input type="text" name="city" id="city" placeholder="Your city.." required>
                         </div>
                     </div>
                     
@@ -69,8 +69,8 @@
                             <label for="country">Country</label>
                             <div style="position: relative;">
                                 <i class="fa-solid fa-earth-americas icon" id="arrow"></i>
-                                <select name="country" id="country">
-                                    <option hidden selected>Your country..</option>
+                                <select name="country" id="country" required>
+                                    <option value="" hidden>Your country..</option>
                                     <option value="arg">Argentina</option>
                                     <option value="urg">Uruguay</option>
                                     <option value="chi">Chile</option>
@@ -81,7 +81,7 @@
                             <label for="postal_code">Postal code</label>
                             <div style="position: relative;">
                                 <i class="fa-solid fa-map-pin icon"></i>
-                                <input type="text" name="postal_code" id="postal_code" placeholder="Your postal code..">
+                                <input type="text" name="postal_code" id="postal_code" placeholder="Your postal code.." required>
                             </div>
                         </div>
                     </div>
@@ -159,5 +159,6 @@
     </footer>
 
     <script src="./js/cart.js"></script>
+    <script src="./js/form_validation.js"></script>
 </body>
 </html>

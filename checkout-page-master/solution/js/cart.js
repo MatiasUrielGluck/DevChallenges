@@ -34,6 +34,7 @@ for (let btn of buttons) {
             texts[2].innerText = `$${Math.round((actualOrigPrice - unitPrice[1]) * 100) / 100}`;
         }
         
+        // Calculate the final price
         let price1 = parseFloat(document.querySelector("#product-price-1").innerText.slice(1));
         let price2 = parseFloat(document.querySelector("#product-price-2").innerText.slice(1));
         let total = price1 + price2 + shippingPrice;
