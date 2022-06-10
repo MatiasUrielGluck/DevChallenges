@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-top: 15px;
+    color: #4E5150;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+.subgroup:nth-child(1) {
+    justify-self: end;
+    max-width: 465px;
+}
+
+.subgroup:nth-child(2) {
+    justify-self: start;
+    display: flex;
+    flex-flow: column nowrap;
+    background: #F2F2F2;
+    border-radius: 12px;
+    height: fit-content;
+    padding: 30px;
+}
+
+.subgroup h3 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.subgroup h3:last-of-type {
+    margin-top: 38px;
+}
+
+.form-item {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.form-item input, .form-item select {
+    color: #828282;
+    font-size: 16px;
+    height: 42px;
+    width: 100%;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 18px 0 18px 52px;
+}
+
+.form-item select {
+    padding: 0 0 0  52px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../images/arrow2.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 5px);
+    background-size: 18px;
+}
+
+.checkbox {
+    width: 21px;
+    height: 21px;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.icon {
+    position: absolute;
+    top: 13px;
+    left: 8px;
+    color: #828282;
+}
+
+label {
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+    margin-bottom: 7px;
+}
+
+.double-item-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 31px;
+}
+
+#name {
+    font-size: 16px;
+    color: #333333;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    width: 166px;
+    height: 54px;
+    background: #F2994A;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0px;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+input[type=submit]:hover {
+    transform: scale(105%);
+}
+
+.submit-container {
+    width: fit-content;
+    float: right;
+    margin-top: 23px;
+}
+
+.cart_card {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 30px;
+}
+
+.card_img {
+    width: 30%;
+}
+
+.card_img img {
+    border-radius: 10%;
+    width: 100%;
+}
+
+.card_info {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.info_title {
+    font-size: 16px;
+    color: #4E5150;
+}
+
+.info_price {
+    display: inline-block;
+    font-size: 16px;
+    color: #F2994A;
+}
+
+.info_original_price {
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 12px;
+    text-decoration-line: line-through;
+    color: #4E5150;
+
+}
+
+.cart {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 134px;
+    height: 52px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+}
+
+.cart_button {
+    cursor: pointer;
+    margin: auto 14px;
+}
+
+.cart_button .b_icon {
+    color: #828282;
+}
+
+.cart_num {
+    font-size: 16px;
+    color: #333333;
+}
+
+.cart_summary {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #BDBDBD;
+    padding: 10px 0;
+}
+
+.cart_summary p {
+    color: #333333;
+}
+
+.cart_summary p:nth-of-type(1) {
+    font-size: 18px;
+    margin-bottom: 19px;
+}
+
+.cart_summary p:nth-of-type(2) {
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 8.375rem;
+    margin-bottom: 12px;
+    color: rgb(125, 125, 125);
+    width: 100%;
+    text-align: center;
+}
+
+footer span {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        padding: 13px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    .subgroup:nth-child(1) {
+        order: 1;
+    }
+    
+    .subgroup:nth-child(2) {
+        margin-bottom: 10%;
+    }
+
+    .form-item input, .form-item select {
+        padding: 18px 0 18px 28px;
+    }
+    
+    .form-item select {
+        padding: 0 0 0 28px;
+        background-position: calc(100% - 5px);
+        background-size: 18px;
+    }
+}

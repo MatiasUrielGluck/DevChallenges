@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/68ba57d17d.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Checkout Page</title>
+</head>
+<body>
+    <main>
+        <h1>Checkout</h1>
+
+        <div class="content">
+            <div class="subgroup">
+                <form action="#">
+                    <h3>Contact infomation</h3>
+                    <div class="form-item">
+                        <label for="email">E-mail</label>
+                        <div style="position: relative;">
+                            <i class="fa-solid fa-envelope icon"></i>
+                            <input type="email" name="email" id="email" placeholder="Enter your email...">
+                        </div>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="phone">Phone</label>
+                        <div style="position: relative;">
+                            <i class="fa-solid fa-phone icon"></i>
+                            <input type="tel" name="phone" id="phone" placeholder="Enter your phone...">
+                        </div>
+                    </div>
+
+                    <h3>Shipping address</h3>
+
+                    <div class="form-item">
+                        <label for="name">Full name</label>
+                        <div style="position: relative;">
+                            <i class="fa-solid fa-circle-user icon"></i>
+                            <input type="text" name="name" id="name" placeholder="Rodney Cotton">
+                        </div>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="address">Address</label>
+                        <div style="position: relative;">
+                            <i class="fa-solid fa-house icon"></i>
+                            <input type="text" name="address" id="address" placeholder="Your address..">
+                        </div>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="address">City</label>
+                        <div style="position: relative;">
+                            <i class="fa-solid fa-city icon"></i>
+                            <input type="text" name="city" id="city" placeholder="Your city..">
+                        </div>
+                    </div>
+                    
+                    <div class="double-item-group">
+                        <div class="form-item">
+                            <label for="country">Country</label>
+                            <div style="position: relative;">
+                                <i class="fa-solid fa-earth-americas icon" id="arrow"></i>
+                                <select name="country" id="country">
+                                    <option hidden selected>Your country..</option>
+                                    <option value="arg">Argentina</option>
+                                    <option value="urg">Uruguay</option>
+                                    <option value="chi">Chile</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <label for="postal_code">Postal code</label>
+                            <div style="position: relative;">
+                                <i class="fa-solid fa-map-pin icon"></i>
+                                <input type="text" name="postal_code" id="postal_code" placeholder="Your postal code..">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="check"><input class="checkbox" type="checkbox" name="check" id="check"> Save this information for next time</label>
+                    </div>
+
+                    <div class="form-item submit-container">
+                        <input type="submit" value="Continue">
+                    </div>
+                </form>
+            </div>
+                
+            <div class="subgroup">
+                <div class="cart_card">
+                    <div class="card_img">
+                        <img src="./images/photo1.png" alt="">
+                    </div>
+                    <div class="card_info">
+                        <div class="price-panel">
+                            <p class="info_title">Vintage Backbag</p>
+                            <p class="info_price">$54.99</p>
+                            <p class="info_original_price">$94.99</p>
+                        </div>
+                        <div class="cart">
+                            <div class="cart_button">
+                                <i class="fa-solid fa-circle-minus b_icon"></i>
+                            </div>
+                            <p class="cart_num">1</p>
+                            <div class="cart_button">
+                                <i class="fa-solid fa-circle-plus b_icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart_card">
+                    <div class="card_img">
+                        <img src="./images/photo2.png" alt="">
+                    </div>
+                    <div class="card_info">
+                        <p class="info_title">Levi Shoes</p>
+                        <p class="info_price">$74.99</p>
+                        <p class="info_original_price">$124.99</p>
+                        <div class="cart">
+                            <div class="cart_button">
+                                <i class="fa-solid fa-circle-minus b_icon"></i>
+                            </div>
+                            <p class="cart_num">1</p>
+                            <div class="cart_button">
+                                <i class="fa-solid fa-circle-plus b_icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart_summary">
+                    <p>Shipping</p>
+                    <p>$19</p>
+                </div>
+
+                <div class="cart_summary">
+                    <p>Total</p>
+                    <p>$148.98</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>created by <span>Matias Uriel Gluck</span> - devChallenges.io</p>
+    </footer>
+</body>
+</html>
