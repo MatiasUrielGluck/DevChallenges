@@ -1,5 +1,5 @@
 <!-- Please update value in the {}  -->
-
+<h1>In progress</h1>
 <h1 align="center">Edie Homepage</h1>
 
 <div align="center">
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://">
+    <a href="">
       Demo
     </a>
     <span> | </span>
-    <a href="https://">
+    <a href="https://github.com/MatiasUrielGluck/devChallenges/tree/main/edie-homepage-master">
       Solution
     </a>
     <span> | </span>
