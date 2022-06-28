@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 10;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.title {
+    font-family: "Heebo", sans-serif;
+    font-size: 1.5em;
+}
+
+.navbar i {
+  font-size: 1.4em;
+}
+
+.inactive {
+  transform: translateX(110%);
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: transform 0.6s ease;
+}
+
+nav i {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  width: 100vw;
+  height: 100vh;
+  background: #333333;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+/* Hero section */
+.hero-section {
+  margin-top: 6rem;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 0.938rem;
+}
+
+.hero-container {
+  margin: 0 2.5rem;
+}
+
+.hero-container p {
+  color: #2D9CDB;
+  font-weight: 500;
+  font-size: 0.75em;
+}
+
+.hero-container h1 {
+  max-width: 272px;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+.hero-image {
+  margin: 0 0.625rem;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 1.125em;
+}
+
+.hero-container:nth-child(3) h1 {
+  margin-bottom: 2rem;
+}
+
+.hero-container:nth-child(3) p {
+  color: #4F4F4F;
+  max-width: 275px;
+  font-weight: 400;
+  font-size: 0.75em;
+  margin-bottom: 2rem;
+}
+
+.hero-contact p:first-child {
+  color: #828282;
+  font-weight: 500;
+  font-size: 0.625em;
+  margin: 0;
+}
+
+.hero-contact .hero-input {
+  position: relative;
+}
+
+.hero-contact input {
+  width: 100%;
+  height: 2.938rem;
+  background: #F2F2F2;
+  border: none;
+  border-radius: 0.750em  ;
+  font-weight: 500;
+  font-size: 14px;
+  color: #BDBDBD;
+  padding-left: 1.25rem;
+}
+
+.hero-contact .join-btn {
+  position: absolute;
+  height: 2.438rem;
+  width: 4.438rem;
+  border-radius: 0.750em;
+  top: 0.25rem;
+  right: 0;
+  background: #2D9CDB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-contact .join-btn p {
+  font-weight: 500;
+  font-size: 0.875em;
+  color: #F2F2F2;
+}
+
+/* Services Section */
+.services-section {
+  
+}
+
+.services-section h1:first-child {
+  margin: 6.375rem 0 5.75rem 0;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #333333;
+}
+
+
+@media screen and (min-width: 768px) {
+  /* Desktop */
+  
+  /* Desktop Hero section */
+}
