@@ -160,7 +160,7 @@ nav ul li a {
 }
 
 /* Services Section */
-.services-section .subtitle {
+.services-section > h1 {
   max-width: 259px;
   margin: 6.375rem 0 1.75rem 3.06rem;
   font-weight: 500;
@@ -250,7 +250,51 @@ nav ul li a {
   color: white;
 }
 
+/* Projects Section */
+.projects-section > h1 {
+  max-width: 267px;
+  margin: 6.375rem 0 4rem 3.06rem;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #333333;
+}
 
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2.25rem;
+  margin: 0 0.625rem;
+}
+
+.project-card img {
+  border-radius: 0.75em;
+}
+
+.project-card img {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  font-weight: 300;
+  font-size: 0.75em;
+  color: #828282;
+}
+
+.project-card h2 {
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #333333;
+}
+
+.projects-section a {
+  display: block;
+  margin: 2.25rem 0 6.25rem 0.625rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #2D9CDB;
+}
 
 @media screen and (min-width: 768px) {
   /* Desktop */
