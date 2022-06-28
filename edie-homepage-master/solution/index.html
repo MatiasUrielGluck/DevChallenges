@@ -11,18 +11,21 @@
     <title>Edie Homepage</title>
 </head>
 <body>
-    <div class="nav">
-        <input type="checkbox" id="active">
-        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
-        <p class="title">Edie</p>
-        <div class="wrapper">
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Our Works</a></li>
-                <li><a href="#">Clients</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <div class="navbar">
+        <div class="nav-container">
+            <p class="title">Edie</p>
+            <i id="hamb-open-btn" class="fas fa-bars"></i>
+    
+            <nav class="inactive">
+                <i id="hamb-close-btn" class="fa-solid fa-x"></i>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Works</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 
@@ -52,6 +55,6 @@
         </div>
     </section>
     
-    <!-- Services Section -->
+    <script src="./js/script.js"></script>
 </body>
 </html>
