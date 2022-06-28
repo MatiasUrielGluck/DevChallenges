@@ -124,11 +124,11 @@ nav ul li a {
   margin: 0 0 0.4em 0;
 }
 
-.hero-contact .hero-input {
+.hero-input {
   position: relative;
 }
 
-.hero-contact input {
+.hero-input input {
   width: 100%;
   height: 2.938rem;
   background: #F2F2F2;
@@ -140,7 +140,7 @@ nav ul li a {
   padding-left: 1.25rem;
 }
 
-.hero-contact .join-btn {
+.hero-input .join-btn {
   position: absolute;
   height: 2.438rem;
   width: 4.438rem;
@@ -153,7 +153,8 @@ nav ul li a {
   align-items: center;
 }
 
-.hero-contact .join-btn p {
+.hero-input .join-btn p {
+  margin: auto;
   font-weight: 500;
   font-size: 0.875em;
   color: #F2F2F2;
@@ -394,6 +395,74 @@ nav ul li a {
   font-size: 1.125em;
   color: #828282;
 }
+
+/* Footer */
+footer {
+  margin-top: 6.25rem;
+  background: #100E1D;
+  padding: 2.25rem 2.5rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+}
+
+.footer-nav ul li {
+  margin-bottom: 0.6em;
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.125em;
+  color: white;
+}
+
+.social h1 {
+  font-weight: 800;
+  font-size: 2.25em;
+  color: #F2F2F2;
+  margin-bottom: 0.2rem;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social a i {
+  color: white;
+  font-size: 1.6em;
+  margin-right: 0.3rem;
+}
+
+.footer-contact  p{
+  font-weight: 500;
+  font-size: 0.625em;
+  color: #828282;
+  margin: 0 0 0.4em 0;
+}
+
+footer > p {
+  margin-top: 9.375rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.875em;
+  text-align: center;
+  color: #F2F2F2;
+  white-space: nowrap;
+}
+
+footer > p span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 
 @media screen and (min-width: 768px) {
   /* Desktop */
