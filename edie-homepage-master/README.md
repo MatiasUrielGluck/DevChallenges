@@ -1,5 +1,4 @@
 <!-- Please update value in the {}  -->
-<h1>In progress</h1>
 <h1 align="center">Edie Homepage</h1>
 
 <div align="center">
