@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://ediehomepage-matias-uriel-gluck.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot]()
+![screenshot](https://ediehomepage-matias-uriel-gluck.netlify.app/images/overview.png)
 
 ### Built With
 
@@ -42,6 +42,7 @@
 
 - HTML
 - CSS
+- JavaScript
 
 ## Features
 
