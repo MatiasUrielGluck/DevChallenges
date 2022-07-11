@@ -1,6 +1,3 @@
-<!-- Please update value in the {}  -->
-
-<h1>IN PROGRESS</h1>
 <h1 align="center">Portfolio</h1>
 
 <div align="center">
@@ -9,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://matias-uriel-gluck.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -44,6 +41,7 @@
 - HTML
 - CSS
 - JavaScript
+- Vue.js
 
 ## Features
 
