@@ -32,7 +32,7 @@
 
 ## Overview
 
-![screenshot](https://matias-uriel-gluck.netlify.app/overview.png)
+![screenshot](https://matias-uriel-gluck.netlify.app/images/overview.png)
 
 ### Built With
 
