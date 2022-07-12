@@ -3,10 +3,18 @@ const app = new Vue({
     data: {
         projectList: [
             {
+                src: "./images/portfolio/pianos.png",
+                tags: ["HTML", "CSS", "JavaScript", "Python", "MySQL", "Fullstack"],
+                projectName: "Gluck Pianos",
+                projectDesc: "E-commerce project, using both front-end and backend technologies.",
+                demo: "https://gluck-pianos.herokuapp.com/",
+                code: "https://github.com/MatiasUrielGluck/Gluck-Pianos"
+            },
+            {
                 src: "./images/portfolio/404.png",
                 tags: ["HTML", "CSS"],
                 projectName: "404 Not Found",
-                projectDesc: "Project description",
+                projectDesc: "devChallenges.io first project.",
                 demo: "https://404-not-found-matias-uriel-gluck.netlify.app/",
                 code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/404-not-found-master"
             },
@@ -14,57 +22,49 @@ const app = new Vue({
                 src: "./images/portfolio/checkout.png",
                 tags: ["HTML", "CSS", "JavaScript"],
                 projectName: "Checkout",
-                projectDesc: "Project description",
-                demo: "https://404-not-found-matias-uriel-gluck.netlify.app/",
-                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/404-not-found-master"
+                projectDesc: "devChallenges.io project.",
+                demo: "https://checkoutpage-matias-uriel-gluck.netlify.app/",
+                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/checkout-page-master"
             },
             {
                 src: "./images/portfolio/edie.png",
                 tags: ["HTML", "CSS", "JavaScript"],
                 projectName: "Edie Homepage",
-                projectDesc: "Project description",
-                demo: "https://404-not-found-matias-uriel-gluck.netlify.app/",
-                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/404-not-found-master"
+                projectDesc: "devChallenges.io project.",
+                demo: "https://ediehomepage-matias-uriel-gluck.netlify.app/",
+                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/edie-homepage-master"
             },
             {
                 src: "./images/portfolio/gallery.png",
                 tags: ["HTML", "CSS"],
                 projectName: "My gallery",
-                projectDesc: "Project description",
-                demo: "https://404-not-found-matias-uriel-gluck.netlify.app/",
-                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/404-not-found-master"
+                projectDesc: "devChallenges.io project.",
+                demo: "https://mygallery-matias-uriel-gluck.netlify.app/",
+                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/my-gallery-master"
             },
             {
                 src: "./images/portfolio/recipe.png",
                 tags: ["HTML", "CSS"],
                 projectName: "Recipe page",
-                projectDesc: "Project description",
-                demo: "https://404-not-found-matias-uriel-gluck.netlify.app/",
-                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/404-not-found-master"
+                projectDesc: "devChallenges.io project.",
+                demo: "https://recipepage-matias-uriel-gluck.netlify.app/",
+                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/recipe-page-master"
             },
             {
                 src: "./images/portfolio/team.png",
                 tags: ["HTML", "CSS"],
                 projectName: "Team page",
-                projectDesc: "Project description",
-                demo: "https://404-not-found-matias-uriel-gluck.netlify.app/",
-                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/404-not-found-master"
-            },
-            {
-                src: "./images/portfolio/pianos.png",
-                tags: ["HTML", "CSS", "JavaScript", "Python", "Fullstack"],
-                projectName: "Gluck Pianos",
-                projectDesc: "Project description",
-                demo: "https://404-not-found-matias-uriel-gluck.netlify.app/",
-                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/404-not-found-master"
+                projectDesc: "devChallenges.io project.",
+                demo: "https://myteampage-matias-uriel-gluck.netlify.app/",
+                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/my-team-page-master"
             },
             {
                 src: "./images/portfolio/sudoku.png",
                 tags: ["Python"],
                 projectName: "Sudoku",
-                projectDesc: "Project description",
-                demo: "https://404-not-found-matias-uriel-gluck.netlify.app/",
-                code: "https://github.com/MatiasUrielGluck/devChallenges/tree/main/404-not-found-master"
+                projectDesc: "Python sudoku for the terminal.",
+                demo: "https://github.com/MatiasUrielGluck/Sudoku-Python",
+                code: "https://github.com/MatiasUrielGluck/Sudoku-Python"
             }
         ],
         
